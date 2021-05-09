@@ -276,7 +276,7 @@ body {
 }
 #page {
 	width: 90%;
-	max-width: 1200px;
+	max-width: 960px;
 	margin: 0 auto;
 }
 .page-header {
@@ -811,6 +811,11 @@ body {
 	-o-background-size: cover;
 	background-size: cover;
 }
+
+.home #page {
+	max-width: 1200px;
+}
+
 .home .page-header {
 	display: none;
 }
