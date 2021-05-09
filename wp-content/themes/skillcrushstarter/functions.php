@@ -86,3 +86,21 @@ function custom_excerpt_more($more) {
 	return '...<div class="read-more"><a href="'. get_permalink() . '"><span>Read more</span> »</a></div>';
 }
 add_filter('excerpt_more', 'custom_excerpt_more');
+
+//Add custom post type
+function create_custom_post_types() {
+    register_post_type( 'portfolio_project',
+        array(
+            'labels' => array(
+                'name' => __( 'Portfolio Projects' ),
+                'singular_name' => __( 'Portfolio Project' )
+            ),
+            'public' => true,
+            'has_archive' => true,
+            'rewrite' => array( 'slug' => 'portfolio-projects' ),
+        )
+    );
+}
+add_action( 'init', 'create_custom_post_types' );
+
+
