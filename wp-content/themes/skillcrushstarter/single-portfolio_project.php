@@ -11,12 +11,42 @@ get_header(); ?>
 
 <section class="default-page">
 	<div class="main-content">
-		<?php while ( have_posts() ) : the_post(); ?>
-			<h1>Hello, this is my page!</h1>
-			<h2 class="entry-title"><?php the_title(); ?></h2>
-			<article class="post-entry">
-				<?php the_content(); ?>
-			</article>
+		<?php while ( have_posts() ) : the_post();
+			$services = get_field('services');
+			$link = get_field('project_link');
+			$image_1 = get_field('image_1');
+			$image_2 = get_field('image_2');
+			$image_3 = get_field('image_3');
+			$size = "full"; ?>
+
+<article class="portfolio-project">
+	<div class="site-content portfolio-project-wrapper">
+		<aside class="portfolio-project-sidebar">
+			<h2><?php the_title(); ?></h2>
+			<h5><?php echo $services; ?></h5>
+
+			<?php the_content(); ?>
+
+			<p><a href="<?php echo $link; ?>">View Project</a></p>
+		</aside>
+
+		<div class="project-images">
+			<?php if($image_1) {
+				echo wp_get_attachment_image( $image_1, $size );
+			} ?>
+			<?php if($image_2) {
+				echo wp_get_attachment_image( $image_2, $size );
+			} ?>
+			<?php if($image_3) {
+				echo wp_get_attachment_image( $image_3, $size );
+			} ?>
+
+
+		</div>
+	</div>
+</article>
+
+			
 		<?php endwhile; ?>
 	</div>
 
