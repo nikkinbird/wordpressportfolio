@@ -887,6 +887,10 @@ body {
 	text-decoration: none;
 }
 
+.featured-work {
+	background-color: pink;
+}
+
 /* media queries */
 @media (min-width: 768px) {
 	.home .main-content {
