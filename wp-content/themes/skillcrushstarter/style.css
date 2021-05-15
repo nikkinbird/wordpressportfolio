@@ -805,16 +805,15 @@ body {
 /* HOMEPAGE STYLES */
 .home {
 	width: 100%;
-	background: url(img/andrew-ling-hxmFA94vrJ4-unsplash.jpg) no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 }
 
-.home #page {
+ .home #page {
 	max-width: 1200px;
-}
+}  
 
 .home .page-header {
 	display: none;
@@ -887,18 +886,37 @@ body {
 	text-decoration: none;
 }
 
+.home-page {
+		background: url(img/andrew-ling-hxmFA94vrJ4-unsplash.jpg) no-repeat center center;
+		background-size: cover;
+		width: 100%;
+}
+
+#page {
+	margin: 0;
+	width: 100%;
+}
+
+#main {
+	margin: 0;
+	width: 100%;
+}
+
 .featured-work {
 	background-color: pink;
+	display: flex;
 }
 
 /* media queries */
 @media (min-width: 768px) {
 	.home .main-content {
-		float: right;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
 	}
-	.home .content {
+	/*.home .content {
 		float: right;
-	}
+	}  */
 }
 /* End HOMEPAGE STYLES */
 
