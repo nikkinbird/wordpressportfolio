@@ -28,7 +28,7 @@ get_header(); ?>
 <section class="featured-work">
 		<div class="site-content">
 
-			<h4>Featured Work</h4>
+			<h2>Portfolio</h2>
 
 			<div class="homepage-featured-work">
 				<?php query_posts('posts_per_page=3&post_type=portfolio_project'); ?>

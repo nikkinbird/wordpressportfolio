@@ -157,7 +157,7 @@ p {
 	font-size: 16px;
 	font-size: 1em;
 	line-height: 1.75;
-	font-family: 'OpenSans', Arial, sans-serif;
+	font-family: 'Assistant', Arial, sans-serif;
 	letter-spacing: -0.01em;
 	margin: 1em auto;
 }
@@ -168,7 +168,7 @@ h4,
 h5,
 h6 {
 	margin: 2em 0 .5em;
-	font: 700 1em/1.75 'Montserrat', 'OpenSans', Arial, sans-serif;
+	font: 700 1em/1.75 'Assistant', 'OpenSans', Arial, sans-serif;
 	letter-spacing: -0.034em;
 }
 h1 {
@@ -204,22 +204,22 @@ blockquote {
 	padding: 0 1em;
 }
 blockquote p {
-	font: 1.6em/1.6 'Montserrat', 'OpenSans', Arial, sans-serif;
+	font: 1.6em/1.6 'Assistant', 'OpenSans', Arial, sans-serif;
 }
 blockquote p:before {
 	content: '“';
-	font: 1.5em/1 'Montserrat', 'OpenSans', Arial, sans-serif;
+	font: 1.5em/1 'Assistant', 'OpenSans', Arial, sans-serif;
 	margin-left: -.6em;
 	padding-right: .25em;
 }
 blockquote p:after {
 	content: '”';
-	font: 1.5em/1 'Montserrat', 'OpenSans', Arial, sans-serif;
+	font: 1.5em/1 'Assistant', 'OpenSans', Arial, sans-serif;
 	margin-right: -1em;
 	padding-left: .25em;
 }
 blockquote footer {
-	font: 1.25em/1 'Montserrat', 'OpenSans', Arial, sans-serif;
+	font: 1.25em/1 'Assistant', 'OpenSans', Arial, sans-serif;
 }
 blockquote footer:before {
 	content: '—';
@@ -232,7 +232,7 @@ iframe {
 	width: 100%;
 }
 input {
-	font: 1em 'OpenSans', Arial, sans-serif;
+	font: 1em 'Assistant', Arial, sans-serif;
 	line-height: 2;
 	height: 2.3125em;
 	border: 1px solid #BFBFBF;
@@ -243,7 +243,7 @@ input {
 }
 input[type="button"],
 input[type="submit"] {
-	font: 700 1.125em/3.5 'Montserrat', 'OpenSans', Arial, sans-serif;
+	font: 700 1.125em/3.5 'Assistant', 'OpenSans', Arial, sans-serif;
 	color: #fff;
 	background: #E67E22;
 	border: none;
@@ -271,7 +271,7 @@ body {
 	font-size: 16px;
 	font-size: 1em;
 	line-height: 1.65;
-	font-family: 'OpenSans', Arial, sans-serif;
+	font-family: 'Assistant', Arial, sans-serif;
 	letter-spacing: -0.01em;
 }
 #page {
@@ -291,7 +291,7 @@ body {
 }
 .page-header .top-logo .title {
 	color: #E67E22;
-	font: 700 1.88em/1.3125 'Montserrat', 'OpenSans', Arial, sans-serif;
+	font: 700 1.88em/1.3125 'Cabin Sketch', 'OpenSans', Arial, sans-serif;
 	letter-spacing: -0.034em;
 	display: block;
 	text-transform: uppercase;
@@ -406,7 +406,7 @@ body {
 }
 .entry-title {
 	margin: 0.25em 0 1em;
-	font: 700 1.5em/1.5 'Montserrat', 'OpenSans', Arial, sans-serif;
+	font: 700 1.5em/1.5 'Cabin Sketch', 'OpenSans', Arial, sans-serif;
 	letter-spacing: -0.034em;
 }
 .entry-title a {
@@ -418,10 +418,10 @@ body {
 }
 .entry-time {
 	color: #E67E22;
-	font: 600 .82em/1.65 'OpenSans', Arial, sans-serif;
+	font: 600 .82em/1.65 'Assistant', Arial, sans-serif;
 }
 .category .page-title {
-	font: 700 1.5em/2 'Montserrat', 'OpenSans', Arial, sans-serif;
+	font: 700 1.5em/2 'Cabin Sketch', 'OpenSans', Arial, sans-serif;
 	letter-spacing: -0.034em;
 	margin: 0;
 }
@@ -451,7 +451,7 @@ body {
 .post-entry .read-more a{
 	font-size: 13px;
 	font-size: .8em;
-	font-family: 'OpenSans', Arial, sans-serif;
+	font-family: 'Assistant', Arial, sans-serif;
 	color: #E67E22;
 	font-weight: 600;
 	text-transform: uppercase;
@@ -530,7 +530,7 @@ body {
 }
 #sidebar .widget_search input[type="text"] {
 	width: 79%;
-	font: .875em/1.75em 'OpenSans', Arial, sans-serif;
+	font: .875em/1.75em 'Assistant', Arial, sans-serif;
 	font-style: italic;
 	border-top: 1px solid #a6a6a6;
 	border-bottom: 1px solid #a6a6a6;
@@ -546,7 +546,7 @@ body {
 	border-bottom: 1px solid #a6a6a6;
 	border-right: 1px solid #a6a6a6;
 	border-left: none;
-	font: .875em/1.75em 'Open Sans', Arial, sans-serif;
+	font: .875em/1.75em 'Assistant', Arial, sans-serif;
 	height: 2.6em;
 	background: url('img/white-arrow-right.png') no-repeat center #E67E22;
 	color: #ffffff;
@@ -556,13 +556,13 @@ body {
 }
 #sidebar .widget_categories h2,
 #sidebar .widget_archive h2 {
-	font: 700 .875em/1.75 'OpenSans', Arial, sans-serif;
+	font: 700 .875em/1.75 'Assistant', Arial, sans-serif;
 	color: #E67E22;
 	margin: 0 auto 1.25em;
 }
 #sidebar .widget_categories ul li,
 #sidebar .widget_archive ul li {
-	font: 600 .875em/1.5 'OpenSans', Arial, sans-serif;
+	font: 600 .875em/1.5 'Assistant', Arial, sans-serif;
 	color: #3b3b3b;
 	margin-bottom: 1em;
 }
@@ -578,7 +578,7 @@ body {
 	border: solid #bfbfbf;
 	border-width: 1px 0;
 	clear: both;
-	font: .8em/4.08 'OpenSans', Arial, sans-serif;
+	font: .8em/4.08 'Assistant', Arial, sans-serif;
 	overflow: hidden;
 	position: relative;
 	z-index: 1;
@@ -671,7 +671,7 @@ body {
 	border: solid #bfbfbf;
 	border-width: 1px 0;
 	color: #150300;
-	font: 600 .8em/3 'OpenSans', Arial, sans-serif;
+	font: 600 .8em/3 'Assistant', Arial, sans-serif;
 	height: 3em;
 	text-transform: uppercase;
 	margin: 1em 0;
@@ -683,7 +683,7 @@ body {
 	margin: 1.5em 0 .625em;
 }
 .comment-list .comment {
-	font: .8em/2.08 'OpenSans', Arial, sans-serif;
+	font: .8em/2.08 'Assistant', Arial, sans-serif;
 	border-bottom: 1px solid #BFBFBF;
 	padding-bottom: 1.5em;
 }
@@ -703,7 +703,7 @@ body {
 }
 .comments-area .comment-reply-title {
 	color: #E67E22;
-	font: 700 1.176em/1.75 'Montserrat', 'OpenSans', Arial, sans-serif;
+	font: 700 1.176em/1.75 'Assistant', 'OpenSans', Arial, sans-serif;
 	text-transform: uppercase;
 	margin: 2em 0 1em;
 }
@@ -714,7 +714,7 @@ body {
 	text-decoration: underline;
 }
 .comments-area .comment-form p {
-	font: .8em/2.08 'OpenSans', Arial, sans-serif;
+	font: .8em/2.08 'Assistant', Arial, sans-serif;
 	margin: 0 auto 2em;
 }
 .comment-form-author {
@@ -742,14 +742,14 @@ body {
 }
 .comments-area .comment-form label {
 	display: block;
-	font: 600 1em 'OpenSans', Arial, sans-serif;
+	font: 600 1em 'Assistant', Arial, sans-serif;
 	margin: .625em 0;
 }
 .comments-area .comment-form textarea {
 	height: 11.25em;
 	width: 100%;
 	resize: none;
-	font: 1em/1.75 'OpenSans', Arial, sans-serif;
+	font: 1em/1.75 'Assistant', Arial, sans-serif;
 	padding: .5em 1em;
 	border: 1px solid #BFBFBF;
 }
@@ -757,7 +757,7 @@ body {
 	background: #E67E22;
 	width: 12.875em;
 	height: 3.5em;
-	font: 700 1.25em/2.5 'Montserrat', 'OpenSans', Arial, sans-serif;
+	font: 700 1.25em/2.5 'Assistant', 'OpenSans', Arial, sans-serif;
 	color: #fff;
 	margin: 1.5em 0;
 	float: right;
@@ -834,7 +834,7 @@ body {
 	margin: 0 0 1em;
 }
 .home .content p {
-	font: 1em/2 'Zilla Slab', serif;
+	font: 1em/2 'Assistant', sans-serif;
 	margin-bottom: 2em;
 }
 .home .content p a {
@@ -878,7 +878,7 @@ body {
 .home .btn {
 	background: #E67E22;
 	color: #fff;
-	font: 700 1.125em/3.5 'Montserrat', 'OpenSans', Arial, sans-serif;
+	font: 700 1.125em/3.5 'Assistant', 'OpenSans', Arial, sans-serif;
 	display: inline-block;
 	height: 3.5em;
 	width: 100%;
@@ -905,8 +905,9 @@ body {
 
 /* Home page featured work section styles */
 
-.featured-work {
-	
+.featured-work h2 {
+	font-family: 'Cabin Sketch', cursive;
+	font-size: 2em;
 }
 
 .featured-work .site-content {
