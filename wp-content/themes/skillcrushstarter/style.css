@@ -812,7 +812,7 @@ body {
 }
 
  .home #page {
-	max-width: 1200px;
+	max-width: 1800px;
 }  
 
 .home .page-header {
@@ -822,6 +822,7 @@ body {
 	max-width: 600px;
 	background: #ffffff;
 	padding: 3em;
+	margin-right: 4em;
 }
 .home .main-content {
 	display: block;
