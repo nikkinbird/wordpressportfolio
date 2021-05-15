@@ -903,9 +903,31 @@ body {
 	width: 100%;
 }
 
+/* Home page featured work section styles */
+
 .featured-work {
-	background-color: pink;
+	
+}
+
+.featured-work .site-content {
 	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+	width: 100%;
+}
+
+.homepage-featured-work {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-flow: row wrap;
+	width: 100%;
+}
+
+.featured-work h4 {
+	width: 100%;
+	text-align: center;
 }
 
 /* media queries */
