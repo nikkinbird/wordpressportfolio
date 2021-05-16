@@ -812,7 +812,8 @@ body {
 	background-size: cover;
 }
 
- .home #page {
+.home #page {
+	width: 100%;
 	max-width: 1800px;
 }  
 
