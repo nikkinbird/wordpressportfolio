@@ -517,7 +517,7 @@ body {
 	max-width: 175px;
 	margin: auto;
 	display: block;
-	border-radius: 50%; /* style not defined by the challenge code but an option to match image to site design */
+	border-radius: 50%; 
 }
 #sidebar .widget_text a {
 	color: #3b3b3b;
@@ -949,6 +949,10 @@ body {
 
 .individual-featured-work h3 {
 	margin-top: 1em;
+}
+
+.individual-featured-work h3 a {
+	color: #E67E22;
 }
 
 /* media queries */
