@@ -924,11 +924,31 @@ body {
 	align-items: center;
 	flex-flow: row wrap;
 	width: 100%;
+	padding-bottom: 3em;
 }
 
 .featured-work h4 {
 	width: 100%;
 	text-align: center;
+}
+
+.individual-featured-work {
+	display: flex;
+	justify-content: center;
+	align-items: space-between;
+	flex-flow: row wrap;
+	width: 30%;
+}
+
+.individual-featured-work figure {
+	height: 250px;
+}
+.individual-featured-work img {
+	border: 1px solid black;
+}
+
+.individual-featured-work h3 {
+	margin-top: 1em;
 }
 
 /* media queries */
