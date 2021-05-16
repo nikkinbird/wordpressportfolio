@@ -276,9 +276,10 @@ body {
 }
 #page {
 	width: 90%;
-	max-width: 960px;
-	margin: 0 auto;
+	margin: auto;
 }
+
+
 .page-header {
 	border-bottom: 1px solid #bfbfbf;
 	padding-bottom: 2.5em;
@@ -893,11 +894,6 @@ body {
 		width: 100%;
 }
 
-#page {
-	margin: 0;
-	width: 100%;
-}
-
 #main {
 	margin: 0;
 	width: 100%;
@@ -944,7 +940,7 @@ body {
 	height: 250px;
 }
 .individual-featured-work img {
-	border: 1px solid black;
+	border: 1px solid gray;
 }
 
 .individual-featured-work h3 {
