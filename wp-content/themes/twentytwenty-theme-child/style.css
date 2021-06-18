@@ -30,11 +30,13 @@ Text Domain:  twentytwenty-child
 .home .content {
 	max-width: 600px;
 	background: #ffffff;
-	padding: 3em;
-	margin-right: 4em;
+	padding: 2em;
+    margin-right: 5em;
 }
 .home .main-content {
-	display: block;
+	display: flex;
+    justify-content: flex-end;
+    align-items: center;
 	width: 100%;
 	padding: 4em 0;
 }
