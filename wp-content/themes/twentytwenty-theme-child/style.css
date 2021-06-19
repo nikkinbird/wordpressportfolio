@@ -109,6 +109,7 @@ Text Domain:  twentytwenty-child
 }
 
 
+
 /****************** TABLET STYLES **************************************************************/
 
 @media only screen and (min-width: 750px) {
@@ -126,5 +127,23 @@ Text Domain:  twentytwenty-child
 
     .home .content {
         margin-right: 5em;
+    }
+
+
+    /***** Index page styles *****/
+
+    .index-page {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #site-content {
+        width: 75%;
+
+    }
+
+    .sidebar-section {
+        width: 25%;
     }
 }
