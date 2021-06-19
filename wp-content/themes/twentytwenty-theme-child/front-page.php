@@ -3,8 +3,8 @@
  * The template for the homepage
  *
  * @package WordPress
- * @subpackage Skillcrush_Starter
- * @since Skillcrush Starter 2.0
+ * @subpackage twenty_twenty
+ * @since Twenty Twenty Child
  */
 
 get_header(); ?>
