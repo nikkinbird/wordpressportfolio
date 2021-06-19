@@ -108,7 +108,21 @@ Text Domain:  twentytwenty-child
 	width: 100%;
 }
 
+/***************** INDEX PAGE STYLES **********************************/
 
+#site-content {
+    padding-bottom: 2em;
+    border-bottom: 1px solid gray;
+}
+
+/***************** SIDEBAR STYLES  *********************************************/
+
+.sidebar-section { 
+    padding: 2em;
+}
+.sidebar-section img {
+    border-radius: 50%;
+}
 
 /****************** TABLET STYLES **************************************************************/
 
@@ -134,16 +148,24 @@ Text Domain:  twentytwenty-child
 
     .index-page {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
     }
 
     #site-content {
-        width: 75%;
+        border-bottom: none;
+    }
 
+    /******* Sidebar Styles *******/
+
+    #site-content {
+        width: 70%;
     }
 
     .sidebar-section {
         width: 25%;
+        padding: 1em;
+        margin-right: 2em;
     }
+
 }

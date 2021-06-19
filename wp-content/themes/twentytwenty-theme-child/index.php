@@ -115,8 +115,8 @@ get_header();
 		
 
 	</main><!-- #site-content -->
-	
-	<aside class="sidebar-section">>
+
+	<aside class="sidebar-section">
 		<?php get_sidebar(); ?>
 	</aside>
 
